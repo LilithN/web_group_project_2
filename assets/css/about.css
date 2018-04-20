@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 .indexcake {
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_2/master/assets/images/fix-index-cake2.jpg);
@@ -10,6 +12,10 @@ h1 {
   color: #f2f2f2;
   background-color: #d49b30;
   text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
