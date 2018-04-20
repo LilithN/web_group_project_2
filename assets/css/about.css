@@ -17,8 +17,12 @@ h1 {
   padding-left: 10px;
   padding-right: 10px;
 }
-.riley {
+.rileysplash {
   background-color: #e0d7c5;
+}
+.riley {
+  max-width: 320px;
+  margin: auto;
 }
 
 
