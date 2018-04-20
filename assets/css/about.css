@@ -17,6 +17,24 @@ h1 {
   padding-left: 10px;
   padding-right: 10px;
 }
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125em;
+  color: #8e5942;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125em;
+  color:#8e5942;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #303030;
+  line-height: 1.6em;
+}
 .rileysplash {
   background-color: #e0d7c5;
 }
