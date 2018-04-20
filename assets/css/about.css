@@ -4,6 +4,11 @@ body {
 .indexcake {
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_2/master/assets/images/fix-index-cake2.jpg);
 }
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.1em;
+  background-color: #303030;
+}
 
 
 
