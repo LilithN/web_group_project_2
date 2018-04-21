@@ -65,5 +65,8 @@ a {
 
 
 @media(min-width: 940px){
-
+  .bakersinfo {
+    display: flex;
+    flex-direction: row;
+  }
 }
