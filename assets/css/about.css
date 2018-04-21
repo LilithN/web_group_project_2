@@ -69,6 +69,8 @@ a {
   h1 {
     font-size: 3.1em;
     max-width: 400px;
+    position: relative;
+    top: 73px;
   }
   .bakersinfo {
     display: flex;
