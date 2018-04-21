@@ -69,4 +69,11 @@ a {
     display: flex;
     flex-direction: row;
   }
+  #cassandrainfo {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .bakers {
+    height: auto;
+  }
 }
