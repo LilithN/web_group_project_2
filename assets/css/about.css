@@ -73,6 +73,9 @@ a {
     display: flex;
     flex-direction: row-reverse;
   }
+  #cassandra {
+    margin-left: 590px;
+  }
   .bakersplash {
     width: 914px;
   }
