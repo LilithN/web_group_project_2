@@ -73,6 +73,9 @@ a {
     display: flex;
     flex-direction: row-reverse;
   }
+  .bakersplash {
+    width: 914px;
+  }
   .bakers {
     height: 500px;
   }
