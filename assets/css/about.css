@@ -57,6 +57,8 @@ a {
 }
 .customorder {
   background-color: #8e5942;
+  text-align: center;
+  padding: 20px;
 }
 .customorder p {
   color: #f2f2f2;
@@ -113,5 +115,8 @@ a {
   }
   a {
     font-size: 1.25em;
+  }
+  .customorder {
+
   }
 }
