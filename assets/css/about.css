@@ -51,6 +51,9 @@ a {
   height: 246px;
   margin: auto;
 }
+#cassandra {
+  margin-left: 160px;
+}
 
 
 @media(min-width: 660px){
