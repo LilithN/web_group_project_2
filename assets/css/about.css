@@ -22,18 +22,20 @@ h3 {
   font-size: 1.125em;
   color: #8e5942;
   text-transform: uppercase;
+  margin: 15px;
 }
-h4 {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.125em;
+h3 span {
+  font-family: 'Lato Light', sans-serif;
   color:#8e5942;
   text-transform: uppercase;
+  font-weight: 200;
 }
 p {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   color: #303030;
   line-height: 1.6em;
+  margin: 15px;
 }
 .rileysplash {
   background-color: #e0d7c5;
