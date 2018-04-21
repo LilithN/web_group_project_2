@@ -14,15 +14,15 @@ h1 {
   text-align: center;
   max-width: 200px;
   margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.625em;
+  padding-right: 0.625em;
 }
 h3 {
   font-family: 'Lato', sans-serif;
   font-size: 1.125em;
   color: #8e5942;
   text-transform: uppercase;
-  margin: 15px;
+  margin: 0.9375em;
 }
 h3 span {
   font-family: 'Lato Light', sans-serif;
@@ -35,7 +35,7 @@ p {
   font-size: 1em;
   color: #303030;
   line-height: 1.6em;
-  margin: 15px;
+  margin: 0.9375em;
 }
 a {
   font-family: 'Lato', sans-serif;
@@ -43,22 +43,22 @@ a {
   font-weight: bold;
   font-size: 1em;
   color: #be5f27;
-  margin: 15px;
+  margin: 0.9375em;
 }
 .bakersplash {
   background-color: #e0d7c5;
 }
 .bakers {
-  height: 246px;
+  height: 15.375em;
   margin: auto;
 }
 #cassandra {
-  margin-left: 160px;
+  margin-left: 10em;
 }
 .customorder {
   background-color: #8e5942;
   text-align: center;
-  padding: 20px;
+  padding: 1.25em;
 }
 .customorder p {
   color: #f2f2f2;
@@ -83,7 +83,7 @@ a {
     font-size: 3.1em;
     max-width: 400px;
     position: relative;
-    top: 73px;
+    top: 1.47em;
   }
   .bakersinfo {
     display: flex;
@@ -94,23 +94,23 @@ a {
     flex-direction: row-reverse;
   }
   #cassandra {
-    margin-left: 590px;
+    margin-left: 36.875em;
   }
   #cassandraflip {
     text-align: right;
   }
   .bakersplash {
-    width: 914px;
+    width: 57.125em;
   }
   .bakers {
-    height: 500px;
+    height: 31.25em;
   }
   .bakerflex {
     display: flex;
     flex-direction: column;
-    margin-top: 110px;
-    max-width: 560px;
-    margin-left: 25px;
+    margin-top: 6.875em;
+    max-width: 35em;
+    margin-left: 1.5625em;
   }
   p {
     font-size: 1.25em;
