@@ -76,6 +76,9 @@ a {
   #cassandra {
     margin-left: 590px;
   }
+  #cassandraflip {
+    text-align: right;
+  }
   .bakersplash {
     width: 914px;
   }
