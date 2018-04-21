@@ -37,7 +37,14 @@ p {
   line-height: 1.6em;
   margin: 15px;
 }
-.rileysplash {
+a {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #be5f27;
+  margin: 15px;
+}
+.bakersplash {
   background-color: #e0d7c5;
 }
 .riley {
