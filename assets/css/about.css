@@ -55,6 +55,12 @@ a {
 #cassandra {
   margin-left: 160px;
 }
+.customorder {
+  background-color: #8e5942;
+}
+.customorder p {
+  color: #f2f2f2;
+}
 
 
 @media(min-width: 660px){
