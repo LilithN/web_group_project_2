@@ -66,6 +66,10 @@ a {
 
 
 @media(min-width: 940px){
+  h1 {
+    font-size: 3.1em;
+    max-width: 400px;
+  }
   .bakersinfo {
     display: flex;
     flex-direction: row;
