@@ -74,10 +74,13 @@ a {
     flex-direction: row-reverse;
   }
   .bakers {
-    height: auto;
+    height: 500px;
   }
   .bakerflex {
     display: flex;
     flex-direction: column;
+    margin-top: 110px;
+    max-width: 435px;
+    margin-left: 25px;
   }
 }
