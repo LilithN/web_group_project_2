@@ -76,6 +76,14 @@ footer {
 .address {
   text-align: center;
   margin: auto;
+  font-family: 'Oswald', sans-serif;
+  color: #f2f2f2;
+  font-size: .9em;
+}
+.address p {
+  font-family: 'Oswald', sans-serif;
+  color: #f2f2f2;
+  font-size: .9em;
 }
 li {
   list-style-type: none;
@@ -88,6 +96,19 @@ li {
 }
 .contact {
   margin: auto;
+}
+.contact p {
+  font-family: 'Oswald', sans-serif;
+  font-size: .9em;
+  color: #f2f2f2;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+.logos img {
+  padding: 5px;
 }
 
 
