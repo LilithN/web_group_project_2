@@ -68,6 +68,11 @@ p {
   font-style: italic;
   text-decoration: underline;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #be5f27;
+}
 
 
 @media(min-width: 660px){
