@@ -73,6 +73,22 @@ footer {
   flex-direction: column;
   background-color: #be5f27;
 }
+.address {
+  text-align: center;
+  margin: auto;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+}
+.fixlogo {
+  width: 145px;
+  margin: auto;
+}
+.contact {
+  margin: auto;
+}
 
 
 @media(min-width: 660px){
