@@ -85,30 +85,20 @@ footer {
   color: #f2f2f2;
   font-size: .9em;
 }
-li {
-  list-style-type: none;
+footer p {
+  font-size: .9em;
+  color: #f2f2f2;
+}
+footer {
+  background-color: #be5f27;
   text-align: center;
-  margin: auto;
+}
+footer .logos {
+  margin: 5px;
 }
 .fixlogo {
   width: 145px;
   margin: auto;
-}
-.contact {
-  margin: auto;
-}
-.contact p {
-  font-family: 'Oswald', sans-serif;
-  font-size: .9em;
-  color: #f2f2f2;
-  text-align: center;
-}
-.logos {
-  display: flex;
-  flex-direction: row;
-}
-.logos img {
-  padding: 5px;
 }
 
 
