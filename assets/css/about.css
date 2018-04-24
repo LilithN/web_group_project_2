@@ -102,13 +102,8 @@ footer {
   font-size: .9em;
 }
 
-.address p {
-  font-family: 'Oswald', sans-serif;
-  color: #f2f2f2;
-  font-size: .9em;
-}
-
 footer p {
+  font-family: 'Oswald', sans-serif;
   font-size: .9em;
   color: #f2f2f2;
 }
@@ -119,6 +114,9 @@ footer {
 }
 
 footer .logos {
+  margin: 10px;
+}
+.logos img {
   margin: 5px;
 }
 
@@ -171,5 +169,18 @@ footer .logos {
   }
   a {
     font-size: 1.25em;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+  .address {
+    display: inline-block;
+    flex-grow: 1;
+  }
+  .contact {
+    flex-grow: 1;
   }
 }
