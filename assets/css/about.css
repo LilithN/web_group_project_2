@@ -90,6 +90,9 @@ p {
   height: 15.375em;
   margin: auto;
 }
+.bakerflex {
+  margin-bottom: 10px;
+}
 
 #cassandra {
   margin-left: 10em;
