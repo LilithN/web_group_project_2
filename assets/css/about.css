@@ -5,6 +5,10 @@ body {
 }
 .abouthero {
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_2/master/assets/images/fix-about-hero.jpg);
+  background-color: black;
+  background-size: cover;
+  height: 300px;
+  background-position: 50%;
 }
 h1 {
   font-family: 'Oswald', sans-serif;
