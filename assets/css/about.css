@@ -116,6 +116,7 @@ footer {
 footer .logos {
   margin: 10px;
 }
+
 .logos img {
   margin: 5px;
 }
@@ -127,60 +128,4 @@ footer .logos {
 
 @media(min-width: 660px) {}
 
-@media(min-width: 940px) {
-  h1 {
-    font-size: 3.1em;
-    max-width: 400px;
-    position: relative;
-    top: 1.47em;
-  }
-  .bakersinfo {
-    display: flex;
-    flex-direction: row;
-  }
-  #cassandrainfo {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  #cassandra {
-    margin-left: 36.875em;
-  }
-  #cassandraflip {
-    text-align: right;
-  }
-  .bakersplash {
-    width: 57.125em;
-  }
-  .bakers {
-    height: 31.25em;
-  }
-  .bakerflex {
-    display: flex;
-    flex-direction: column;
-    margin-top: 6.875em;
-    max-width: 35em;
-    margin-left: 1.5625em;
-  }
-  p {
-    font-size: 1.25em;
-  }
-  h3 {
-    font-size: 1.5em;
-  }
-  a {
-    font-size: 1.25em;
-  }
-  footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-  }
-  .address {
-    display: inline-block;
-    flex-grow: 1;
-  }
-  .contact {
-    flex-grow: 1;
-  }
-}
+@media(min-width: 940px) {}
