@@ -83,6 +83,8 @@ p {
   font-size: 1em;
   color: #be5f27;
   margin: 0.9375em;
+  display: flex;
+  align-items: flex-end;
 }
 
 .bakersplash {
@@ -98,14 +100,18 @@ p {
   margin-bottom: 0.625em;
 }
 
-#cassandra {
-  margin-left: 10em;
-}
-
 .customorder {
   background-color: #8e5942;
   text-align: center;
   padding: 1.25em;
+}
+
+#cassandra {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+  margin: 0;
 }
 
 .customorder p {
