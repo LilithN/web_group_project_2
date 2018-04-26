@@ -37,6 +37,7 @@ nav p {
   height: 18.75em;
   background-position: 50%;
   margin: 0;
+  margin-bottom: -50px;
 }
 
 h1 {
