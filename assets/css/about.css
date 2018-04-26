@@ -184,9 +184,34 @@ h1 {
 .bakersinfo {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+}
+.bakersinfo img {
+  width: 300px;
+  height: auto;
 }
 #cassandrainfo {
   flex-direction: row-reverse;
+}
+#cassandrainfo img {
+  width: auto;
+  height: 290px;
+}
+#cassandraflip {
+  text-align: right;
+}
+.bakersplash {
+display: flex;
+align-items: flex-end;
+min-width: 331px;
+height: 300px;
+}
+#riley {
+  height: 350px;
+
+}
+#riley img {
+  margin: 0;
 }
 }
 
