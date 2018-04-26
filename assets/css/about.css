@@ -162,6 +162,10 @@ footer .logos {
   margin: auto;
 }
 
-@media(min-width: 660px) {}
+@media(min-width: 660px) {
+  body {
+    max-width: 940px;
+  }
+}
 
 @media(min-width: 940px) {}
