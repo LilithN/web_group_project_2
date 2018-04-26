@@ -147,6 +147,7 @@ footer p {
 footer {
   background-color: #be5f27;
   text-align: center;
+  padding: 15px;
 }
 
 footer .logos {
@@ -208,10 +209,14 @@ height: 300px;
 }
 #riley {
   height: 350px;
-
 }
 #riley img {
   margin: 0;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 }
 
