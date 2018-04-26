@@ -200,6 +200,7 @@ h1 {
 }
 #cassandraflip {
   text-align: right;
+  margin-bottom: 2.625em;
 }
 .bakersplash {
 display: flex;
