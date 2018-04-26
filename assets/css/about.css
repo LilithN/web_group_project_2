@@ -166,6 +166,12 @@ footer .logos {
   body {
     max-width: 940px;
   }
+nav p {
+  margin: 2.375em;
+}
+nav img {
+  height: 5.125em;
+}
 }
 
 @media(min-width: 940px) {}
