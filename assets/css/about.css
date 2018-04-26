@@ -147,7 +147,7 @@ footer p {
 footer {
   background-color: #be5f27;
   text-align: center;
-  padding: 15px;
+  padding: 0.9375em;
 }
 
 footer .logos {
@@ -188,7 +188,7 @@ h1 {
   align-items: flex-end;
 }
 .bakersinfo img {
-  width: 300px;
+  width: 18.75em;
   height: auto;
 }
 #cassandrainfo {
@@ -196,7 +196,7 @@ h1 {
 }
 #cassandrainfo img {
   width: auto;
-  height: 290px;
+  height: 18.125em;
 }
 #cassandraflip {
   text-align: right;
@@ -205,10 +205,10 @@ h1 {
 display: flex;
 align-items: flex-end;
 min-width: 331px;
-height: 300px;
+height: 18.75em;
 }
 #riley {
-  height: 350px;
+  height: 21.875em;
 }
 #riley img {
   margin: 0;
