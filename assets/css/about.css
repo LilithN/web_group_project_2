@@ -93,7 +93,6 @@ p {
 
 .bakers {
   height: 15.375em;
-  margin: auto;
 }
 
 .bakerflex {
@@ -167,58 +166,62 @@ footer .logos {
   body {
     max-width: 940px;
   }
-nav p {
-  margin: 2.375em;
-}
-nav img {
-  height: 5.125em;
-}
-.abouthero {
-  height: 23.75em;
-  margin-bottom: 0;
-}
-h1 {
-  margin-bottom: -50px;
-  overflow: visible;
-  z-index: 1;
-}
-.bakersinfo {
+  nav p {
+    margin: 2.375em;
+  }
+  nav img {
+    height: 5.125em;
+  }
+  .abouthero {
+    height: 23.75em;
+    margin-bottom: 0;
+  }
+  h1 {
+    margin-bottom: -50px;
+    overflow: visible;
+    z-index: 1;
+  }
+  .bakersinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .bakersinfo img {
+    width: 18.75em;
+    height: auto;
+  }
+  #cassandrainfo {
+    flex-direction: row-reverse;
+  }
+  #cassandrainfo img {
+    width: auto;
+    height: 18.125em;
+    margin-right: 1em;
+  }
+  #cassandraflip {
+    text-align: right;
+    margin-bottom: 2.625em;
+  }
+  .bakersplash {
   display: flex;
-  flex-direction: row;
   align-items: flex-end;
-}
-.bakersinfo img {
-  width: 18.75em;
-  height: auto;
-}
-#cassandrainfo {
-  flex-direction: row-reverse;
-}
-#cassandrainfo img {
-  width: auto;
-  height: 18.125em;
-}
-#cassandraflip {
-  text-align: right;
-  margin-bottom: 2.625em;
-}
-.bakersplash {
-display: flex;
-align-items: flex-end;
-min-width: 331px;
-height: 18.75em;
-}
-#riley {
-  height: 21.875em;
-}
-#riley img {
-  margin: 0;
-}
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  height: 18.75em;
+  width: 50%;
+  }
+  .bakerflex {
+    width: 50%;
+  }
+  #riley {
+    height: 21.875em;
+  }
+  #riley img {
+    margin: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 @media(min-width: 940px) {}
