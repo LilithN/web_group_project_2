@@ -2,5 +2,19 @@
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_2/master/assets/images/fix-index-hero.jpg);
 }
 .cakelove {
-  background-color: #e0d7c5;
+  background-color: #c3bbac;
+  text-align: center;
+}
+.cakelovelist {
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+color: #f2f2f2;
+font-size: 2.25em;
+line-height: 0.85em;
+padding: 0;
+text-transform: uppercase;
+}
+.icon {
+  width: 80px;
+  height: auto;
 }
