@@ -37,7 +37,7 @@ nav p {
   height: 18.75em;
   background-position: 50%;
   margin: 0;
-  margin-bottom: -50px;
+  margin-bottom: -3.125em;
 }
 
 h1 {
@@ -222,7 +222,7 @@ footer .logos {
 
 @media(min-width: 940px) {
   .maininfo {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 15.625em;
+    margin-right: 15.625em;
   }
 }
