@@ -168,7 +168,7 @@ footer .logos {
     height: 5.125em;
   }
   .abouthero {
-    height: 55.75em;
+    height: 28.75em;
     margin-bottom: 0;
   }
   footer {
@@ -182,5 +182,8 @@ footer .logos {
   .maininfo {
     margin-left: 15.625em;
     margin-right: 15.625em;
+  }
+  .abouthero {
+    height: 55.75em;
   }
 }
