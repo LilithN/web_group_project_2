@@ -203,6 +203,7 @@ footer .logos {
     align-items: flex-end;
     height: 18.75em;
     width: 50%;
+    z-index: -1;
   }
   .bakerflex {
     width: 50%;
