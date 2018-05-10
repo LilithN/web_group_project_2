@@ -97,4 +97,20 @@ p {
   }
 }
 
-@media(min-width: 940px) {}
+@media(min-width: 940px) {
+  .bakersinfo img {
+    width: 24.75em;
+  }
+  #cassandrainfo img {
+    height: 23.125em;
+  }
+  .bakersplash {
+    height: 24.75em;
+  }
+  .bakerflex {
+    margin-bottom: 2.625em;
+  }
+  #cassandraflip {
+    margin-bottom: 4.625em;
+  }
+}
