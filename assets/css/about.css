@@ -1,48 +1,8 @@
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  position: fixed;
-  background-color: #f2f2f2;
-  opacity: 0.9;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding-top: 0.625em;
-  padding-bottom: 0.625em;
-}
-
-nav img {
-  height: 3.125em;
-}
-
-nav p {
-  font-family: 'Lato', sans-serif;
-  font-size: 1em;
-  color: #303030;
-  margin: 0.375em;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .abouthero {
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_2/master/assets/images/fix-about-hero.jpg);
-  background-color: black;
-  background-size: cover;
-  height: 18.75em;
-  background-position: 50%;
-  margin: 0;
-  margin-bottom: -3.125em;
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.1em;
   color: #f2f2f2;
   background-color: #d49b30;
   text-align: center;
@@ -53,10 +13,6 @@ h1 {
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.125em;
-  color: #8e5942;
-  text-transform: uppercase;
   margin: 0.9375em;
 }
 
@@ -68,10 +24,6 @@ h3 span {
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  font-size: 1em;
-  color: #303030;
-  line-height: 1.6em;
   margin: 0.9375em;
 }
 
@@ -112,66 +64,7 @@ p {
   margin: 0;
 }
 
-.customorder p {
-  color: #f2f2f2;
-  font-family: 'Oswald', sans-serif;
-}
-
-.customorder a {
-  font-style: italic;
-  text-decoration: underline;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #be5f27;
-  text-align: center;
-  padding: 0.9375em;
-}
-
-.address {
-  text-align: center;
-  margin: auto;
-  font-family: 'Oswald', sans-serif;
-  color: #f2f2f2;
-  font-size: .9em;
-}
-
-footer p {
-  font-family: 'Oswald', sans-serif;
-  font-size: .9em;
-  color: #f2f2f2;
-}
-
-footer .logos {
-  margin: 0.625em;
-}
-
-.logos img {
-  margin: 0.3125em;
-}
-
-.fixlogo {
-  width: 9.0625em;
-  margin: auto;
-}
-
-.contact {
-  margin: auto;
-}
-
 @media(min-width: 660px) {
-  nav p {
-    margin: 2.375em;
-  }
-  nav img {
-    height: 5.125em;
-  }
-  .abouthero {
-    height: 23.75em;
-    margin-bottom: 0;
-  }
   h1 {
     margin-bottom: -50px;
     overflow: visible;
@@ -214,16 +107,6 @@ footer .logos {
   #riley img {
     margin: 0;
   }
-  footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
 }
 
-@media(min-width: 940px) {
-  .maininfo {
-    margin-left: 15.625em;
-    margin-right: 15.625em;
-  }
-}
+@media(min-width: 940px) {}
