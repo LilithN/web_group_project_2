@@ -1,17 +1,6 @@
 .abouthero {
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_2/master/assets/images/fix-about-hero.jpg);
 }
-
-h1 {
-  color: #f2f2f2;
-  background-color: #d49b30;
-  text-align: center;
-  max-width: 200px;
-  margin: 0 auto;
-  padding-left: 0.625em;
-  padding-right: 0.625em;
-}
-
 h3 {
   margin: 0.9375em;
 }
