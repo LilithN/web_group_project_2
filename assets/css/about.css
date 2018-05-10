@@ -2,7 +2,6 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  max-width: 660px;
 }
 
 nav {
@@ -163,9 +162,6 @@ footer .logos {
 }
 
 @media(min-width: 660px) {
-  body {
-    max-width: 940px;
-  }
   nav p {
     margin: 2.375em;
   }
@@ -203,10 +199,10 @@ footer .logos {
     margin-bottom: 2.625em;
   }
   .bakersplash {
-  display: flex;
-  align-items: flex-end;
-  height: 18.75em;
-  width: 50%;
+    display: flex;
+    align-items: flex-end;
+    height: 18.75em;
+    width: 50%;
   }
   .bakerflex {
     width: 50%;
