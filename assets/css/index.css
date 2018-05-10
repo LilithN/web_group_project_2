@@ -29,9 +29,11 @@ p {
   }
   .cakelove {
     width: 50%;
+    padding-top: 50px;
   }
   .other {
     width: 50%;
+    padding-top: 50px;
   }
 }
 @media(min-width: 940px) {}
