@@ -33,7 +33,7 @@ nav p {
 .abouthero {
   background-color: black;
   background-size: cover;
-  height: 18.75em;
+  height: 20.75em;
   background-position: 50%;
   margin: 0;
   margin-bottom: -3.125em;
@@ -168,7 +168,7 @@ footer .logos {
     height: 5.125em;
   }
   .abouthero {
-    height: 23.75em;
+    height: 55.75em;
     margin-bottom: 0;
   }
   footer {

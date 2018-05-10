@@ -54,6 +54,9 @@ p {
 }
 
 @media(min-width: 660px) {
+  .abouthero {
+    height: 28.75em;
+  }
   h1 {
     margin-bottom: -50px;
     overflow: visible;
@@ -99,6 +102,9 @@ p {
 }
 
 @media(min-width: 940px) {
+  .abouthero {
+    height: 39.75em;
+  }
   .bakersinfo img {
     width: 24.75em;
   }
