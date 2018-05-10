@@ -221,4 +221,9 @@ footer .logos {
   }
 }
 
-@media(min-width: 940px) {}
+@media(min-width: 940px) {
+  .maininfo {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
