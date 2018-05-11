@@ -46,6 +46,10 @@ p {
   width: auto;
 }
 @media(min-width: 660px) {
+  #odd {
+    display: flex;
+    flex-direction: row;
+  }
   .flexcontainer {
     display: flex;
     flex-direction: row-reverse;
@@ -66,6 +70,7 @@ p {
   .in {
     width: 30%;
   }
+
 
 }
 @media(min-width: 940px) {}
