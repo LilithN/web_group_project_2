@@ -45,6 +45,24 @@ p {
   height: 360px;
   width: auto;
 }
+.hours p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+  color: #f2f2f2;
+}
+p span {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #f2f2f2;
+}
+.hours {
+  background-color: #8e5942;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 @media(min-width: 660px) {
   #odd {
     display: flex;
@@ -70,7 +88,18 @@ p {
   .in {
     width: 30%;
   }
-
+.hours {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hours p {
+  font-size: 30px;
+}
+p span {
+  font-size: 30px;
+}
 
 }
 @media(min-width: 940px) {}
