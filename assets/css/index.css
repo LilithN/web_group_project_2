@@ -5,6 +5,7 @@
   background-color: #c3bbac;
   text-align: center;
   padding-bottom: 5px;
+  padding-top: 10px;
 }
 .cakelovelist {
 font-family: 'Oswald', sans-serif;
@@ -22,6 +23,28 @@ text-transform: uppercase;
 p {
   margin: 20px;
 }
+.iconpair {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #c3bbac;
+  font-size: 2em;
+  line-height: 0.85em;
+  padding: 0;
+  text-transform: uppercase;
+}
+.in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.cakes {
+  height: 360px;
+  width: auto;
+}
 @media(min-width: 660px) {
   .flexcontainer {
     display: flex;
@@ -37,5 +60,12 @@ p {
     padding-top: 50px;
     z-index: -1;
   }
+  .cakes {
+    width: 70%;
+  }
+  .in {
+    width: 30%;
+  }
+
 }
 @media(min-width: 940px) {}
