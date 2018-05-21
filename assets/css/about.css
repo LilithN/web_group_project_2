@@ -26,6 +26,7 @@ p {
   display: flex;
   align-items: flex-end;
 }
+
 .bakersinfo a:hover {
   text-decoration: underline;
 }
