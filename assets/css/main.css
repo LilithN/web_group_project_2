@@ -21,7 +21,7 @@ nav img {
   height: 3.125em;
 }
 
-nav p {
+nav p a {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   color: #303030;
@@ -106,7 +106,6 @@ p a:hover {
   font-style: italic;
   font-size: 1em;
   color: #d49b3c;
-  text-decoration: underline;
 }
 
 .customorder p {
@@ -114,9 +113,10 @@ p a:hover {
   font-family: 'Oswald', sans-serif;
 }
 
-.customorder a {
+.customorder p a {
   font-style: italic;
   text-decoration: underline;
+  color: #f2f2f2;
 }
 
 footer {
