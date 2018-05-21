@@ -26,6 +26,9 @@ p {
   display: flex;
   align-items: flex-end;
 }
+.bakersinfo a:hover {
+  text-decoration: underline;
+}
 
 .bakersplash {
   background-color: #e0d7c5;

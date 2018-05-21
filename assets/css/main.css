@@ -29,6 +29,15 @@ nav p a {
   text-transform: uppercase;
   text-align: center;
 }
+nav p a:hover {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1em;
+  color: #d49b3c;
+  border-bottom: 0.3em solid #d49b30;
+  padding-bottom: 0.3em;
+}
 
 .abouthero {
   background-color: black;
@@ -106,6 +115,7 @@ p a:hover {
   font-style: italic;
   font-size: 1em;
   color: #d49b3c;
+  cursor: pointer;
 }
 
 .customorder p {
@@ -117,6 +127,10 @@ p a:hover {
   font-style: italic;
   text-decoration: underline;
   color: #f2f2f2;
+  font-size: 1.25em;
+}
+.customorder p a:hover {
+  color: #be5f27;
 }
 
 footer {
