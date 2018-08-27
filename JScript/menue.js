@@ -1,4 +1,4 @@
-$("#otherButton").click(function(){
+$("#otherButton").click(function () {
     $(".other").show();
     $(".cakes").hide();
     $("#otherButton").addClass("otherButtonOn");
@@ -7,7 +7,7 @@ $("#otherButton").click(function(){
     $("#cakeButton").removeClass("cakeButtonOn");
 });
 
-$("#cakeButton").click(function(){
+$("#cakeButton").click(function () {
     $(".cakes").show();
     $(".other").hide();
     $("#cakeButton").removeClass("cakeButtonOff");
