@@ -26,8 +26,8 @@ p a {
 
 .mainInfo {
     background-color: #e0d7c5;
-    margin-right: 15.625em;
-    margin-left: 15.625em;
+    margin-right: 20%;
+    margin-left: 20%;
     
 }
 
@@ -36,19 +36,77 @@ p a {
 }
 
 article {
-    margin-right: 3em;
-    margin-left: 3em;
+    margin-right: 20%;
+    margin-left: 20%;
     border-bottom-color: #f2f2f2;
     border-bottom-style: solid;
     border-bottom-width: 0.1em;
 }
 
 .onBoth {
-    margin-right: 3em;
-    margin-left: 3em;
+    margin-right: 20%;
+    margin-left: 20%;
     border: none;
 }
 
 .other {
     display: none;
+}
+.cakeButtonOn {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #f2f2f2;
+    background-color: #d49b3c;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 0;
+    padding: 0.2em;
+    margin-left: 50%;
+}
+
+.otherButtonOn {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #f2f2f2;
+    background-color: #d49b3c;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 0;
+    padding: 0.2em;
+    margin-right: 50%;
+    
+}
+
+#cakeButtonOff {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #d49b3c;
+    background-color: #f2f2f2;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 0;
+    padding: 0.2em;
+    margin-left: 50%;
+}
+
+#otherButtonOff {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #d49b3c;
+    background-color: #f2f2f2;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 0;
+    padding: 0.2em;
+    margin-right: 50%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
 }
