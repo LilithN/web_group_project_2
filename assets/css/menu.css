@@ -62,6 +62,8 @@ article {
     margin-bottom: 0;
     padding: 0.2em;
     margin-left: 50%;
+    border: none;
+    cursor: pointer;
 }
 
 .otherButtonOn {
@@ -74,10 +76,11 @@ article {
     margin-bottom: 0;
     padding: 0.2em;
     margin-right: 50%;
-    
+    border: none;
+    cursor: pointer;
 }
 
-#cakeButtonOff {
+.cakeButtonOff {
     font-family: 'Oswald', sans-serif;
     font-size: 2.1em;
     color: #d49b3c;
@@ -87,9 +90,11 @@ article {
     margin-bottom: 0;
     padding: 0.2em;
     margin-left: 50%;
+    border: none;
+    cursor: pointer;
 }
 
-#otherButtonOff {
+.otherButtonOff {
     font-family: 'Oswald', sans-serif;
     font-size: 2.1em;
     color: #d49b3c;
@@ -99,6 +104,8 @@ article {
     margin-bottom: 0;
     padding: 0.2em;
     margin-right: 50%;
+    border: none;
+    cursor: pointer;
 }
 
 .buttons {
@@ -110,3 +117,4 @@ article {
     align-items: center;
     align-content: center;
 }
+
