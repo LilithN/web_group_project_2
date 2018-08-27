@@ -5,6 +5,25 @@ p {
     line-height: 1.6em;
 }
 
+p a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1em;
+    color: #be5f27;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1em;
+    color: #d49b3c;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
 .mainInfo {
     background-color: #e0d7c5;
     margin-right: 15.625em;
