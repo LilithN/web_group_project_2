@@ -1,0 +1,65 @@
+.fixCustomHero {
+    background-image: url(../images/fix-custom-hero.jpg);
+    padding: 25%;
+    background-repeat: no-repeat;
+    background-size: 154%;
+}
+
+h1 {
+    padding-right: 5%;
+    padding-left: 5%;
+    overflow: visible;
+    z-index: 1;
+}
+
+.customInfo {
+    background-color: #e0d7c5;
+    margin-top: -16%;
+}
+
+article {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.other {
+    padding-top: 20%;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+}
+
+
+@media(min-width: 660px) {
+
+    .fixCustomHero {
+        padding: 16%;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    h1 {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .customInfo {
+        margin-top: 0;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .other {
+        padding-top: 10%;
+    }
+
+}
+
+@media(min-width: 940px) {
+
+}
