@@ -1,0 +1,101 @@
+.fixHoursHero {
+    background-image: url(../images/fix-hours-hero.jpg);
+    padding: 25%;
+    background-repeat: no-repeat;
+    background-size: 154%;
+}
+
+h1 {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.intro {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+}
+
+.printedHours p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    color: #8e5942;
+  }
+  
+  p span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #8e5942;
+  }
+
+.printedHours {
+    background-color: #e0d7c5;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.customorder {
+    background-color: #8e5942;
+    text-align: center;
+    padding: 5%;
+  }
+
+
+
+@media(min-width: 660px) {
+
+.fixMenuHero {
+    padding: 16%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h1 {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.customorder {
+    padding: 1%;
+  }
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.printedHours {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.printedHours p {
+    font-size: 25px;
+}
+
+p span {
+    font-size: 25px;
+}
+    
+}
+
+@media(min-width: 940px) {
+
+}
