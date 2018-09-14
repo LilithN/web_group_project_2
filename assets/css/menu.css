@@ -1,3 +1,10 @@
+.fixMenuHero {
+    background-image: url(../images/fix-menu-hero.jpg);
+    padding: 25%;
+    background-repeat: no-repeat;
+    background-size: 154%;
+}
+
 p {
     font-family: 'Lato', sans-serif;
     font-size: 1em;
@@ -25,15 +32,9 @@ p a {
   }
 
 .mainInfo {
-    background-color: #e0d7c5;
-    margin-right: 20%;
-    margin-left: 20%;
-    
+    background-color: #e0d7c5;    
 }
 
-.fixMenuHero {
-    margin-bottom: -4px;
-}
 
 article {
     margin-right: 20%;
@@ -118,3 +119,23 @@ article {
     align-content: center;
 }
 
+@media(min-width: 660px) {
+
+    .mainInfo {
+        
+        margin-right: 20%;
+        margin-left: 20%;
+        
+    }
+
+    .fixMenuHero {
+        padding: 16%;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    
+}
+
+@media(min-width: 940px) {
+
+}
