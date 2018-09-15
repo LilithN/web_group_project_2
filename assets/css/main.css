@@ -15,6 +15,7 @@ nav {
   justify-content: center;
   padding-top: 0.625em;
   padding-bottom: 0.625em;
+  z-index: 2;
 }
 
 nav img {
