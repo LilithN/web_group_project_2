@@ -3,6 +3,7 @@
     padding: 25%;
     background-repeat: no-repeat;
     background-size: 154%;
+    text-align: center;
 }
 
 p {
@@ -128,11 +129,11 @@ article {
         
     }
 
-    .fixMenuHero {
+    /* .fixMenuHero {
         padding: 16%;
         background-repeat: no-repeat;
         background-size: auto;
-    }
+    } */
     
 }
 

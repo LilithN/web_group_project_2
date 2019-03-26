@@ -37,11 +37,11 @@ li {
 
 @media(min-width: 660px) {
 
-    .fixCustomHero {
+    /* .fixCustomHero {
         padding: 16%;
         background-repeat: no-repeat;
         background-size: auto;
-    }
+    } */
 
     h1 {
         padding-right: 3%;
